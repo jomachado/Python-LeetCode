@@ -1,7 +1,7 @@
 Hi, my name is João Paulo Machado.  I’m currently interested in post some resolve problems from LeetCode and learning a new language, Python. 
 But, my main language programming is C#.
 
-Please, Welcome!!!! 
+Please, Welcome!!! 
 If you have some question. Send me an email: joao.paulo.machado@outlook.com
 
 <!---
