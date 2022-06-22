@@ -10,8 +10,3 @@ class Solution:
             else:
                 numsCombinations[nums[i]] = i
 
-
-
-
-lista = [1,2,3]
-obj = Solution()
