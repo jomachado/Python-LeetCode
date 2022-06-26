@@ -1,7 +1,4 @@
 
-from re import I
-
-
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         number = x
@@ -11,7 +8,6 @@ class Solution:
             lastNumber =number % 10
             palindrome = palindrome * 10  + lastNumber
             number = (number-lastNumber)/10
-
 
         return palindrome==x
 
