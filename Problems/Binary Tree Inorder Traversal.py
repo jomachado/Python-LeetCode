@@ -13,18 +13,16 @@ class TreeNode:
         self.right = right
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:            
-        
                 
         traversalValues = []
 
         def inorderTraversalCustom( root: Optional[TreeNode]):             
-            if(root.left != None):
-                inorderTraversalCustom(root.left)
+            if(root == None):
+                return None
             
+            inorderTraversalCustom(root.left)
             traversalValues.append(root.val)
-
-            if(root.right != None):
-                inorderTraversalCustom(root.right)
+            inorderTraversalCustom(root.right)
 
         inorderTraversalCustom(root)
         return traversalValues
