@@ -5,7 +5,7 @@ class Solution:
         currencySum = 0
         result = nums[0]
 
-        for i in range(0, len(nums), 1):
+        for i in range(len(nums)):
             currencySum += nums[i]
             result = max(result, currencySum)   
         
