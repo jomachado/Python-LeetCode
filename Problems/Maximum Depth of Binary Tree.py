@@ -1,6 +1,5 @@
 # Definition for a binary tree node.
 
-from turtle import goto
 from typing import List
 from typing import Optional
 
