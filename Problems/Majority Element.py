@@ -13,7 +13,7 @@ class Solution:
             values[item] += 1
 
             if  values[item] > majorThenSize:
-                return  values[item]
+                return  item
             
 
 nums = [3,2,3]
