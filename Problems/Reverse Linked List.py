@@ -12,7 +12,7 @@ class Solution:
         return self.reverseListCustom(head, None)
 
     def reverseListCustom(self, head: Optional[ListNode], previousHead: Optional[ListNode]) -> Optional[ListNode]:
-        if(head.next == None or head == None):
+        if(head == None or head.next == None):
             return head
 
         returnValue = self.reverseListCustom(head.next, head)
@@ -21,17 +21,6 @@ class Solution:
         return returnValue
         
             
-
-
-
-
-obj = Solution()
-
-
-node4 = ListNode(4, None )
-
-teste2 = obj.reverseList(node4)
-teste1= teste2
 
 
         
