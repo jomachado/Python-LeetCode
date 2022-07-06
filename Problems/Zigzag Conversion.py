@@ -5,6 +5,8 @@ from turtle import pos, position
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         result = ""        
+        if(numRows == 1):
+                return s
         for level in range(0, numRows, 1):            
             position = level
             positionMidle = level

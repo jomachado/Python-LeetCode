@@ -1,8 +1,6 @@
 # Definition for a binary tree node.
 
 
-from pickle import NONE
-from turtle import right
 from typing import List
 from typing import Optional
 
