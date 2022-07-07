@@ -1,6 +1,3 @@
-from functools import cache
-
-
 class Solution:
     def climbStairs(self, n: int) -> int:
         cache = { 1:1, 2:2}
