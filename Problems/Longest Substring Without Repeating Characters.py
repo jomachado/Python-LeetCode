@@ -1,4 +1,3 @@
-from locale import currency
 
 #Using Index
 class Solution:
