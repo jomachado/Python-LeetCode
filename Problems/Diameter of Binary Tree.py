@@ -1,8 +1,3 @@
-# Definition for a binary tree node.
-
-
-from ast import Nonlocal
-from turtle import left
 from typing import List
 from typing import Optional
 
