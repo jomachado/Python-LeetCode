@@ -1,5 +1,3 @@
-from locale import currency
-from turtle import position
 from typing import  List
 class Solution:
     def countBits(self, n: int) -> List[int]:
