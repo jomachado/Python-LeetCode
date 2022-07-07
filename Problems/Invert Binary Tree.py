@@ -1,6 +1,3 @@
-# Definition for a binary tree node.
-
-from turtle import position
 from typing import Optional
 
 class TreeNode:
