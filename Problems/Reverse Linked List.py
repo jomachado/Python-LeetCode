@@ -1,6 +1,3 @@
-# Definition for singly-linked list.
-from multiprocessing.sharedctypes import Value
-from platform import node
 from typing import Optional
 
 class ListNode:
