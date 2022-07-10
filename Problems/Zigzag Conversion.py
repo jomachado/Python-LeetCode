@@ -1,7 +1,3 @@
-import re
-from turtle import pos, position
-
-
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         result = ""        
@@ -24,6 +20,3 @@ s =  "A"
 rows = 1
 obj = Solution()
 print(obj.convert(s, rows))
-            
-
-#PINALSIGYAHRPI        
