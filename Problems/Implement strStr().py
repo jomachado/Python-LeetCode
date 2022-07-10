@@ -15,9 +15,6 @@ class Solution:
             r += 1
 
         return -1
-
-            
-
         
 obj = Solution()
 haystack = "abc"
