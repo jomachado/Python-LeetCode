@@ -16,6 +16,8 @@ class Solution:
 
         return commontPrefix
 
+
+
 obj = Solution()        
 strs = ["ab","a"]    
 print(obj.longestCommonPrefix(strs))
